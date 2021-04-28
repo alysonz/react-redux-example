@@ -1,3 +1,4 @@
+// action creator
 function updateFormData(payload){
   return {
     type: "UPDATE_FORM_DATA",
@@ -5,7 +6,7 @@ function updateFormData(payload){
   }
 }
 
-
+// event handler
 export function saveData(payload) {
   return function(dispatch) {
     // window.fetch()

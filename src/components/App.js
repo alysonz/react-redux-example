@@ -30,7 +30,9 @@ class App extends Component {
           <input id='name' onChange={this.handleChange}/>
           <input id='email' onChange={this.handleChange}/>
         </p>
-        <button onClick={this.handleSubmit} />
+        <button style={{height: '100px', width: '100px', background: 'red'}} onClick={this.handleSubmit}>
+          Submit
+        </button>
       </div>
     );
   }
